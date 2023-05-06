@@ -14,7 +14,8 @@ const LoginPage = () => {
 
   return (
     <div className="login-page-container">
-      <Card className="login-card" title="Login" bordered={false}>
+      <Card className="login-card" bordered={false}>
+        <h1>Login</h1>
         <Form
           layout="vertical"
           name="basic"
