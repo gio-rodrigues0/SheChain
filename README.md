@@ -5,8 +5,6 @@
 - Giovanna Rodrigues 
 - Luana Parra
 - Sophia Tosar
-# Nossa Solução 
-A solução Diana visa 
 
 #Solução 
   A Solução "Diana" é uma plataforma inovadora que une o mundo de crédito de carbono com stablecoins. "Diana" é uma plataforma de marketing place que cria oportunidade de investimento que traz benefícios tanto para usuário quanto para o meio ambiente. Por meio de tecnologias avançadas e uma interface intuitiva, nossa plataforma permite que os usuários comprem, vendam e troquem créditos de carbono e BTG Dolls com segurança e transparência. 
