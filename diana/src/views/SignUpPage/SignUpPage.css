@@ -1,4 +1,9 @@
+.signup{
+  color:#d6baed
+}
+
 .signup-page-container {
+  background-image: linear-gradient(to bottom right, #300E4B, #A98BC2);
     height: 100%;
     display: flex;
     justify-content: center;

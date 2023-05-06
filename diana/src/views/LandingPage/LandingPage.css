@@ -1,9 +1,10 @@
 body {
-    background-image: linear-gradient(to bottom right, #300E4B, #A98BC2);; /* cor de fundo desejada */
+    background-image: linear-gradient(to bottom right, #300E4B, #A98BC2); /* cor de fundo desejada */
   }
 .logo{
-    top: 10px;
-    left: 20px;
+    position: absolute; 
+    top: 10%;
+    left: 12%;
 
 }
   .landing-page-header{

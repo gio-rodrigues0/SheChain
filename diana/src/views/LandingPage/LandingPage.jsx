@@ -18,7 +18,7 @@ function LandingPage() {
     <div className="landing-page">
 
    <div className="logo">
- 
+  <Image src={logo}></Image>
   </div> 
       <div className="landing-page-header">
       <h1>Diana</h1>

@@ -52,9 +52,9 @@ const LoginPage = () => {
           </Form.Item>
 
           <Form.Item>
-            <Button type="primary" htmlType="submit" block>
-              Login
-            </Button>
+            <div className="login">
+            <Button block>login</Button>
+            </div>
           </Form.Item>
         </Form>
       </Card>

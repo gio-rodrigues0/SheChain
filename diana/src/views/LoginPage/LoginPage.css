@@ -1,4 +1,6 @@
+
 .login-page-container {
+  background-image: linear-gradient(to bottom right, #300E4B, #A98BC2);
     height: 100%;
     display: flex;
     justify-content: center;
@@ -13,5 +15,10 @@
     font-family: "Poppins", sans-serif;
   }
 
-  
+  .login{
+    background-color:#51258f;
+    border-bottom:#51258f;
+  }
+
+
   

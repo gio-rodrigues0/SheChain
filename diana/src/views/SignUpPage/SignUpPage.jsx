@@ -15,7 +15,10 @@ function SignUpPage() {
   return (
     <div className="signup-page-container">
       <Card className="signup-card" bordered={false}>
+        <div classname="signup">
         <h1>Sign Up</h1>
+        </div>
+
         <Form
           name="basic"
           onFinish={onFinish}
@@ -26,7 +29,7 @@ function SignUpPage() {
           layout="vertical"
         >
           <Form.Item
-            label="Full Name"
+            label="Empresa Física ou Empresa"
             name="fullname"
             rules={[
               {
@@ -39,16 +42,12 @@ function SignUpPage() {
           </Form.Item>
 
           <Form.Item
-            label="Email"
-            name="email"
+            label="Full Name"
+            name="fullname"
             rules={[
               {
                 required: true,
-                message: "Please input your email!",
-              },
-              {
-                type: "email",
-                message: "Please enter a valid email address!",
+                message: "Please input your full name!",
               },
             ]}
           >
@@ -68,8 +67,26 @@ function SignUpPage() {
                 message: "Password must be at least 6 characters!",
               },
             ]}
+            
           >
             <Input.Password />
+          </Form.Item>
+
+          <Form.Item
+            label="Email"
+            name="email"
+            rules={[
+              {
+                required: true,
+                message: "Please input your email!",
+              },
+              {
+                type: "email",
+                message: "Please enter a valid email address!",
+              },
+            ]}
+          >
+            <Input />
           </Form.Item>
 
           <Form.Item name="remember" valuePropName="checked">
@@ -81,6 +98,8 @@ function SignUpPage() {
               Sign Up
             </Button>
           </Form.Item>
+
+          
         </Form>
       </Card>
     </div>
