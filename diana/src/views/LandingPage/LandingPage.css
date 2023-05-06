@@ -1,0 +1,49 @@
+body {
+    background-image: linear-gradient(to bottom right, #300E4B, #A98BC2);; /* cor de fundo desejada */
+  }
+.logo{
+    top: 10px;
+    left: 20px;
+
+}
+  .landing-page-header{
+    color:aliceblue;
+    font-family: "Poppins", bold 100px;;
+    font-weight: 700;
+    font-size: 32px;
+    position: absolute;
+    top: 45%;
+    left: 19%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+
+  .slogan{
+    color:aliceblue;
+    font-family:"Roboto";
+    font-weight: 100;
+    font-size: 60;
+    position: absolute;
+    top: 65%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  .entrar{
+    position: fixed;
+  top: 10px;
+  right: 20px;
+  color:aliceblue
+  }
+
+  .cadastrar{
+    position: fixed;
+  top: 10px;
+  right: 100px;
+  color:aliceblue
+  }
+
+  
+
