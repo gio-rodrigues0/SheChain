@@ -1,0 +1,22 @@
+.login-page-container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f2f5;
+  }
+  
+  .login-card {
+    margin-top: 10%;
+    width: 50%;
+    padding: 24px;
+    font-family: "Poppins", sans-serif;
+  }
+
+  .principal-card{
+    margin-top: 10%;
+    width: 90%;
+    padding: 24px;
+    font-family: "Poppins", sans-serif;
+  }
+  

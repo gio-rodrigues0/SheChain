@@ -5,6 +5,7 @@ import "./index.css";
 import LoginPage from "./views/LoginPage/LoginPage";
 import LandingPage from "./views/LandingPage/LandingPage";
 import SignUpPage from "./views/SignUpPage/SignUpPage";
+import HomePage from "./views/HomePage/HomePage";
 import reportWebVitals from "./reportWebVitals";
 
 ReactDOM.render(
@@ -13,6 +14,7 @@ ReactDOM.render(
       <Route path="/" element={<LandingPage />} />
       <Route path="/login" element={<LoginPage />}/>
       <Route path="/signup" element={<SignUpPage />}/>
+      <Route path="/home" element={<HomePage />}/>
     </Routes>
   </Router>,
   document.getElementById("root")
