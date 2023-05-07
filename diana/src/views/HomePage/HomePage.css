@@ -27,8 +27,9 @@
   .principal-card{
     margin-top: 2%;
     margin-bottom: 2%;
-    width: 90%;
+    width: 80%;
     padding: 24px;
+    justify-content: center;
     font-family: "Poppins", sans-serif;
   }
 

@@ -76,7 +76,8 @@ function Metamask(){
             method: "eth_requestAccounts",
           });
           setAddress(accounts[0]);
-          setTimeout(window.location.href = "/home", 2000)
+          createCookie('ID',accounts[0],1)
+          setTimeout(window.location.href = "/home", 3000)
 
           
         } catch (error) {
@@ -101,5 +102,17 @@ function Metamask(){
   );
 };
 
+function createCookie(name, value, days) {
+  var expires;
+  if (days) {
+      var date = new Date();
+      date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+      expires = "; expires=" + date.toGMTString();
+  }
+  else {
+      expires = "";
+  }
+  document.cookie = name + "=" + value + expires + "; path=/";
+}
 
 export default LoginPage;
