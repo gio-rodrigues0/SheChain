@@ -17,7 +17,6 @@ ReactDOM.render(
       <Route path="/login" element={<LoginPage />}/>
       <Route path="/signup" element={<SignUpPage />}/>
       <Route path="/home" element={<HomePage />}/>
-      <Route path="/metamask" element={<MetamaskPage />}/>
     </Routes>
   </Router>,
   document.getElementById("root")

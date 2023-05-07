@@ -14,9 +14,9 @@ const HomePage = () => {
     <>
       <Row justify='center'>
         <Card className="principal-card" style={{height: '50vh'}}>
-          <div className="hello">
+          <Row className="hello">
             <h1>Olá, Luana Parra!</h1>
-          </div>
+          </Row>
           <div className="carbono">
             <h2>Nível de carbono</h2>
           </div>

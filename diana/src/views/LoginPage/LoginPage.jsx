@@ -76,7 +76,7 @@ function Metamask(){
             method: "eth_requestAccounts",
           });
           setAddress(accounts[0]);
-          setTimeout(window.location.href("/home"), 2000)
+          setTimeout(window.location.href = "/home", 2000)
 
           
         } catch (error) {
@@ -90,7 +90,9 @@ function Metamask(){
     <div>
       {address ? (
         <div>
-          <p>Connected to MetaMask with address: {address}</p>
+          <Button type="primary" loading>
+          Loading
+        </Button>
         </div>
       ) : (
         <Button type="primary">Connect with MetaMask</Button>
