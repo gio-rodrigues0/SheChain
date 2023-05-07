@@ -30,7 +30,7 @@ Hackathon Inteli Blockchain
 
 # Instruções para rodar a aplicação 
 
-1- Frontend
+1- Frontend<br>
 a) Fazer um npm install na pasta do frontend<br>
 b) Fazer um npm start na mesma pasta<br>
 
