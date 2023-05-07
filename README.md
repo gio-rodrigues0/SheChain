@@ -4,17 +4,17 @@ Hackathon Inteli Blockchain
 
 # Estrutura de Pastas 
 
-## 🛠 Estrutura de pastas
-|--> documentos<br>
-  | --> outros<br>
-    &emsp;| T(NUMERO_DA_TURMA)_G(NUMERO_DO_GRUPO)_V(VERSÃO)_Web_application_document.pdf<br>
-    &emsp;|T(NUMERO_DA_TURMA)_G(NUMERO_DO_GRUPO)_V(VERSÃO)_Web_application_document.docx<br>
-|-->src<br>
-  &emsp;|--> frontend<br>
+## 🛠 Estrutura de pasta
+
+|diana<br>
+    |-->src<br>
+         &emsp;|--> frontend<br>
   &emsp;|--> backend<br>
 | readme.md<br>
 | index.md<br>
 | license.txt<br>
+
+
 
 <b>Dentre os arquivos presentes na raiz do projeto, definem-se:</b>
 
@@ -26,7 +26,7 @@ Hackathon Inteli Blockchain
 
 <b>imagens:</b> imagens relacionadas ao projeto como um todo (por exemplo imagens do sistema, do grupo, logotipos e afins).
 
-<b>src:</b> nesta pasta encontra-se todo o código fonte do sistema (existem duas subpastas backend e frontend que contêm, respectivamente, o código do servidor e o código da página web).
+<b>src:</b> nesta pasta encontra-se todo o código fonte do sistema (existem duas subpastas backend e frontend que contêm, respectivamente, o código da aplicação e o código da página web).
 
 # Instruções para rodar a aplicação 
 
