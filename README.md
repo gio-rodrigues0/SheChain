@@ -30,8 +30,8 @@ Hackathon Inteli Blockchain
 
 **Frontend**
 
-a) Fazer um npm install na pasta do frontend<br>
-b) Fazer um npm start na mesma pasta<br>
+1. Fazer um npm install na pasta do frontend<br>
+2. Fazer um npm start na mesma pasta<br>
 
 **Backend**
 
