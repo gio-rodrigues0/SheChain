@@ -1,0 +1,34 @@
+.body{
+  background-image: linear-gradient(to bottom right, #300E4B, #A98BC2);
+}
+
+.hello{
+  color:aqua
+}
+.carbono{
+  color:aqua
+}
+.login-page-container {
+  background-image: linear-gradient(to bottom right, #300E4B, #A98BC2); 
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f2f5;
+    margin: 20px;
+  }
+  
+  .login-card {
+    margin-top: 10%;
+    width: 50%;
+    padding: 24px;
+  }
+
+  .principal-card{
+    margin-top: 10%;
+    width: 90%;
+    padding: 24px;
+    font-family: "Poppins", sans-serif;
+  }
+
+  
