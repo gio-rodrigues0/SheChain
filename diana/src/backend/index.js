@@ -13,7 +13,7 @@ const db = new sqlite3.Database("mydatabase.db", (err) => {
     console.log("Connected to the mydatabase database.");
   });
 
-app.post('/cadastro/cria', (req, res) => {
+app.post('/signup', (req, res) => {
     let params = [];
     params.push(request.body.empresa);
     params.push(request.body.area);
