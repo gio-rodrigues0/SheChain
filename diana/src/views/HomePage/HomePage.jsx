@@ -7,6 +7,8 @@ import {
 } from "@ant-design/icons";
 import "antd/dist/reset.css";
 import Web3 from "web3";
+import * as ethers from "ethers";
+import contractABI from '../../contract/build/contracts/CarbonCreditTrading.json'
 
 import "./HomePage.css";
 
@@ -16,10 +18,11 @@ const { Title } = Typography;
 const { Header } = Layout;
 
 const HomePage = () => {
+
   return (
     <>
       <Row justify="center">
-        <Card className="principal-card" style={{ height: "52vh" }}>
+        <Card className="principal-card" style={{ height: "60vh" }}>
           <Row align="middle">
             <Col offset={1} span={13}>
               <Space direction="vertical" size={0.1}>
@@ -127,28 +130,39 @@ const HomePage = () => {
           logoSrc={
             "https://s3.amazonaws.com/gupy5/production/companies/26702/career/63484/images/2022-04-28_16-56_logo.png"
           }
+          cookie = {getCookie('ID')}
         />
         <CardCompanies
           carbonCredit={-0.09}
           logoSrc={
             "https://s3.amazonaws.com/gupy5/production/companies/26702/career/63484/images/2022-04-28_16-56_logo.png"
           }
+          cookie = {getCookie('ID')}
         />
         <CardCompanies
           carbonCredit={-0.09}
           logoSrc={
             "https://s3.amazonaws.com/gupy5/production/companies/26702/career/63484/images/2022-04-28_16-56_logo.png"
           }
+          cookie = {getCookie('ID')}
         />
         <CardCompanies
           carbonCredit={-0.09}
           logoSrc={
             "https://s3.amazonaws.com/gupy5/production/companies/26702/career/63484/images/2022-04-28_16-56_logo.png"
           }
+          cookie = {getCookie('ID')}
         />
       </Row>
     </>
   );
 };
+
+const getCookie = (name) => {
+  return document.cookie.split('; ').reduce((r, v) => {
+    const parts = v.split('=')
+    return parts[0] === name ? decodeURIComponent(parts[1]) : r
+  }, '')
+}
 
 export default HomePage;
