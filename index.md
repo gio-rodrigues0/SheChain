@@ -85,4 +85,4 @@ O frontend da solução é construído com React e CSS e permite que os usuário
 
 ![img](https://github.com/gio-rodrigues0/SheChain/blob/main/Apresenta%C3%A7%C3%A3o%20Hackaton.png)
 
-# Implementações fu
+
