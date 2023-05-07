@@ -1,0 +1,19 @@
+.signup{
+  color:#d6baed
+}
+
+.signup-page-container {
+  background-image: linear-gradient(to bottom right, #300E4B, #A98BC2);
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f2f5;
+  }
+  
+.signup-card {
+    width: 50%;
+    padding: 24px;
+    font-family: "Poppins", sans-serif;
+  }
+  

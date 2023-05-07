@@ -1,8 +1,9 @@
 import React from "react";
-import { Button, Input, Form } from "antd";
+import { Button, Input, Form, Image } from "antd";
 import 'antd/dist/reset.css';
 import "./LandingPage.css";
 
+import logo from '../../imagens/logo.png'
 const { Item } = Form;
 
 function LandingPage() {
@@ -11,45 +12,32 @@ function LandingPage() {
   };
 
   return (
-    <div className="landing-page">
-      <div className="landing-page-header">
-        <h1>Minha Landing Page</h1>
+    <>
+    <div className="header">
+
+      <div className="logo">
+        <Image src={logo}></Image>
       </div>
-      <div className="landing-page-content">
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sed
-          dapibus magna. Pellentesque habitant morbi tristique senectus et netus
-          et malesuada fames ac turpis egestas.
-        </p>
-        <Button type="primary" size="large">
-          Call to Action
-        </Button>
-      </div>
-      <div className="landing-page-footer">
-        <Form onFinish={onFinish} className="newsletter-form">
-          <h3>Inscreva-se na nossa newsletter</h3>
-          <Item
-            name="email"
-            rules={[
-              {
-                type: "email",
-                message: "Insira um e-mail válido",
-              },
-              {
-                required: true,
-                message: "Insira seu e-mail",
-              },
-            ]}
-          >
-            <Input placeholder="Seu e-mail" />
-          </Item>
-          <Button htmlType="submit" type="primary">
-            Inscrever
-          </Button>
-        </Form>
-      </div>
+
+      <Button className="entrar">Entrar</Button>
+
+      <Button className="cadastrar">Cadastrar</Button>
+
     </div>
+
+    <div className="main">
+      <h1>diana</h1>
+    </div>
+
+    <div className="slogan">
+      <p>Juntos pela <p className="verde">sustentabilidade</p>,impulsionados pelo <p className="verde">blockchain.</p></p>
+    </div>
+
+    <div className="landing-page-footer">
+    </div>
+    </>
   );
 }
+
 
 export default LandingPage;

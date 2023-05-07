@@ -1,4 +1,6 @@
+
 .login-page-container {
+  background-image: linear-gradient(to bottom right, #300E4B, #A98BC2);
     height: 100%;
     display: flex;
     justify-content: center;
@@ -7,9 +9,16 @@
   }
   
   .login-card {
-    width: 80%;
-    max-width: 400px;
+    margin-top: 10%;
+    width: 50%;
     padding: 24px;
     font-family: "Poppins", sans-serif;
   }
+
+  .login{
+    background-color:#51258f;
+    border-bottom:#51258f;
+  }
+
+
   

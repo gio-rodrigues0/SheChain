@@ -1,0 +1,46 @@
+$ truffle deploy --network mumbai --compile-none
+property business swift clarify latin during quarter another help pelican gentle rude
+
+# Compiling your contracts...
+
+> Compilation skipped because --compile-none option was passed.
+
+# Starting migrations...
+
+> Network name: 'mumbai'
+> Network id: 80001
+> Block gas limit: 20039079 (0x131c5a7)
+
+# 1_deployContract.js
+
+Deploying 'CarbonCreditTrading'
+
+---
+
+> transaction hash: 0xcdb46f99bd0359fe573712d5f8a28fce1aefba17d4b3ba2f469240f8ee172fee
+> Blocks: 2 Seconds: 4
+> contract address: 0x393e8BB52f53Fe9a401615346Cb2eee043cc3EF2
+> block number: 35270582
+> block timestamp: 1683404842
+> account: 0x852775FF403d8BE4f2E059c50208858dDb828F9F
+> balance: 0.39888809499332857
+> gas used: 444762 (0x6c95a)
+> gas price: 2.500000015 gwei
+> value sent: 0 ETH
+> total cost: 0.00111190500667143 ETH
+
+Pausing for 2 confirmations...
+
+---
+
+> confirmation number: 3 (block: 35270585)
+> Saving artifacts
+
+---
+
+> Total cost: 0.00111190500667143 ETH
+
+# Summary
+
+> Total deployments: 1
+> Final cost: 0.00111190500667143 ETH
