@@ -12,31 +12,30 @@ function LandingPage() {
   };
 
   return (
+    <>
+    <div className="header">
 
+      <div className="logo">
+        <Image src={logo}></Image>
+      </div>
 
+      <Button className="entrar">Entrar</Button>
 
-    <div className="landing-page">
+      <Button className="cadastrar">Cadastrar</Button>
 
-   <div className="logo">
-  <Image src={logo}></Image>
-  </div> 
-      <div className="landing-page-header">
-      <h1>Diana</h1>
     </div>
-  <div className="slogan">
-        <h1>Juntos pela sustentabilidade</h1>
-        <h1>Impulsionados pelo blockchain</h1>
-  </div>
-    
-      <div className="entrar">
-      <Button ghost>entrar</Button>
-      </div>
-      <div className="cadastrar">
-      <Button ghost>cadastrar</Button>
-      </div>
-      <div className="landing-page-footer">
-      </div>
+
+    <div className="main">
+      <h1>diana</h1>
     </div>
+
+    <div className="slogan">
+      <p>Juntos pela <p className="verde">sustentabilidade</p>,impulsionados pelo <p className="verde">blockchain.</p></p>
+    </div>
+
+    <div className="landing-page-footer">
+    </div>
+    </>
   );
 }
 
