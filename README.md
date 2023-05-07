@@ -34,6 +34,30 @@ Hackathon Inteli Blockchain
 a) Fazer um npm install na pasta do frontend<br>
 b) Fazer um npm start na mesma pasta<br>
 
+2- Backend
+1.  Baixar e instalar o node.js:  [https://nodejs.org/pt-br/](https://nodejs.org/pt-br/) (versão 16.15.1 LTS)
+2. Clone o repositório em questão.
+3.  No modo administrador, abra o "prompt de comando" ou o "terminal" e, após,  abra a pasta "backend" no diretório raiz do repositório clonado e digite o segundo comando:
+
+```sh
+npm install express --save
+```
+
+Isso instalará todas as dependências definidas no arquivo <b>package.json</b> que são necessárias para rodar o projeto. <br>
+
+Após a concluir a instalação, faça o procedimento novamente, agora com o seguinte comando: <br>
+
+```sh
+npm install sqlite3
+```
+
+Agora o projeto já está pronto para ser modificado. Caso ainda deseje iniciar a aplicação, digite o comando abaixo no terminal:
+
+```sh
+node app.js
+```
+4. O servidor está online
+
 
 
 
