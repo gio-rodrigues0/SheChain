@@ -75,6 +75,7 @@ Por fim, a plataforma contribui para a construção de um futuro mais sustentáv
 - Vercel 
 
 ## Arquitetura da solução
+
 A solução consiste em três principais componentes: um smart contract na blockchain, um backend de gerenciamento de transações e um frontend para usuários interagirem com a solução.
 
 O smart contract na blockchain é responsável por garantir que as transações de crédito de carbono e stablecoin sejam válidas e registradas de forma segura e transparente. Ele contém regras de negócios para a transferência de créditos de carbono e stablecoins, validação de saldos e prevenção de duplo gasto. Ele também fornece uma interface de programação (API) para que o backend possa interagir com ele.
@@ -84,5 +85,3 @@ O backend de gerenciamento de transações é responsável por conectar o smart 
 O frontend da solução é construído com React e CSS e permite que os usuários interajam com a solução de forma intuitiva e fácil. Ele se conecta com o backend para enviar solicitações de transação, visualizar informações de transação e saldo, e gerenciar suas contas. Ele inclui recursos de autenticação e segurança para garantir que apenas usuários autorizados possam acessar a solução.
 
 ![img](https://github.com/gio-rodrigues0/SheChain/blob/main/Apresenta%C3%A7%C3%A3o%20Hackaton.png)
-
-
