@@ -32,7 +32,9 @@ Hackathon Inteli Blockchain
 
 1- Frontend
 a) Fazer um npm install na pasta do frontend
-b) Fazer um npm start na pasta da 
+b) Fazer um npm start na mesma pasta
+
+
 
 
 # Trailer Diana
