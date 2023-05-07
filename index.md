@@ -36,7 +36,9 @@ Com a evolução das inteligências artificiais, como Chat-GPT e LLaMA AI, há u
 ## Objetivo
 
 Como empresa, seu objetivo é expandir seus negócios. 
+
 Como humano, você quer garantir que o ecossistema permaneça saudável para as próximas gerações.
+
 A nossa solução quer ajudá-lo a fazer as duas coisas. 
   
 **Uma economia sustentável e positiva para a natureza**
