@@ -1,11 +1,8 @@
-# Trailer Diana 
+Hackathon Inteli Blockchain
+# Diana
+## Integrantes: Carolina Fricks, Gabriela Rodrigues, Giovanna Rodrigues, Luana Parra e Sophia Tosar
 
-# Equipe
-- Carolina Fricks
-- Gabriela Rodrigues 
-- Giovanna Rodrigues 
-- Luana Parra
-- Sophia Tosar
+# Sumário
 
 # Propostas escolhidas
 
@@ -24,32 +21,6 @@ Nosso objetivo é inspirar os participantes a criar soluções inovadoras centra
 *Entregáveis mínimos*: O projeto deve utilizar a stablecoin BTG Dol.
 
 *Entregáveis adicionais*: Desenvolver soluções para tornar a stablecoin mais acessível e líquida no mercado; Facilite seu uso para pagamentos, investimentos e outras transações cotidianas; Aumente a adoção da stablecoin por empresas e usuários finais; Aumente os volumes de negociação (em outras bolsas e plataformas DeFi); Soluções para o crescimento do valor de mercado do BTG Dol; Foco em soluções viáveis e eficientes com alto potencial de adoção no mercado.
-
-
-Métricas de tecnologia:
-
-Nível de segurança e privacidade da solução desenvolvida.
-Capacidade, tempo e custo do processamento de transações.
-Escalabilidade da solução utilizada para suportar a demanda crescente.
-Desenvolvimento integrado com tecnologias criptográficas de ponta (abstração de contas, rollups, zk, etc.)
-Desenho da arquitetura/solução. Está bem estruturado? Existem lacunas no fluxo?
-
-Métricas de negócios:
-
-ROI (Return on Investment) do projeto.
-Custo-benefício da solução em comparação com outras alternativas disponíveis.
-Potencial aceitação de mercado da solução desenvolvida.
-Plano de negócios.
-Nível de criatividade e inovação do projeto.
-
-
-Recursos :
-
-Site - mynt.com.br/btgdol
-Whitepaper BTG Dol - Link
-BTG Dol Polygon – Mainnet - Link
-BTG Dol Ethereum – Goerli Testnet - Link
-Github para times usarem como repositório dos códigos - https://github.com/mynt-tech/hackathon-inteli-2023
 
 ## Titanium
 
@@ -93,43 +64,30 @@ Dessa forma, a plataforma é inovadora e contribui para a construção de um fut
 
 # User stories
 
-# Tecnologias
+# Tecnologias utilizadas
 - React JS
 - Node 
 - MySQL
 - AWS
 - Vercel 
 
+# Métricas de tecnologia:
+Nível de segurança e privacidade da solução desenvolvida.
+Capacidade, tempo e custo do processamento de transações.
+Escalabilidade da solução utilizada para suportar a demanda crescente.
+Desenvolvimento integrado com tecnologias criptográficas de ponta (abstração de contas, rollups, zk, etc.)
+Desenho da arquitetura/solução. Está bem estruturado? Existem lacunas no fluxo?
+
+# Métricas de negócios:
+
+ROI (Return on Investment) do projeto.
+Custo-benefício da solução em comparação com outras alternativas disponíveis.
+Potencial aceitação de mercado da solução desenvolvida.
+Plano de negócios.
+Nível de criatividade e inovação do projeto.
+
 # Implementações futuras
 
-# Como rodar a aplicação (se fizermos local)
+# Como rodar a aplicação 
 
-## Atribuições do cliente
-
--Fazer transações entre stablecoin e créditos de carbono 
-- 
-
-
-## Ganhos 
--Benefícios ambientais, ou seja, redução de emissão de gases poluentes na atmosfera
-- Geração de receita
-
-
-
-## Dores
-- Falta de uma plataforma que faça transações de forma transparente e confiável
-- Dificuldade em verificar a autenticidade dos créditos de carbono 
-- Complexidade de se conseguir créditos de carbono 
-
-
-## Aliviador de dores 
-
-
-## Criadores de ganhos 
--Inovação tecnológica
-
-
-
-
-
-
+# Trailer Diana
