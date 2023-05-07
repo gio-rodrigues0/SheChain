@@ -6,17 +6,19 @@
   - [Mynt](#mynt)
   - [Titanium](#titanium)
 - [Visão Geral do Projeto](#visão-geral-do-projeto)
-  - [Objetivos](#objetivos)
-  - [Partes interessadas](#partes-interessadas)
-  - [Proposta de Valor: Value Proposition Canvas](#proposta-de-valor-value-proposition-canvas)
-  - [Matriz de Risco](#matriz-de-risco)
-  - [Análise Financeira](#análise-financeira)
-- [Requisitos do Sistema](#requisitos-do-sistema)
+  - [Objetivo](#objetivo)
+  - [A Solução](#a-solução)
+  - [Proposta de Valor](#proposta-de-valor)
+- [User stories](#user-stories)
+- [Tecnologias](#tecnologias)
+  - [Tecnologias utilizadas](#tecnologias-utilizadas)
+  - [Arquitetura da solução](#arquitetura-da-solução)
+- [Métricas](#métricas)
+  - [de tecnologia](#de-tecnologia)
+  - [de negócios](#de-negócios)
+- [Implementações futuras](#implementações-futuras)
 
 # Propostas escolhidas
-
-  A Solução "Diana" é uma plataforma inovadora que une o mundo de crédito de carbono com stablecoins. "Diana" é uma plataforma de marketing place que cria oportunidade de investimento que traz benefícios tanto para usuário quanto para o meio ambiente. Por meio de tecnologias avançadas e uma interface intuitiva, nossa plataforma permite que os usuários comprem, vendam e troquem créditos de carbono e BTG Dolls com segurança e transparência. 
-  Ademais, a plataforma conta com uma poderosa inteligência artificial que analisa os dados do mercasdo e as preferências dos usuários para sugerir as melhores opções de investimento, de acordo com seu perfil e objetivos. Dessa forma, a plataforma é inovadora e contribui para a construção de um futuro mais sustentável e responsável.
 
 ## GEAP
 
@@ -41,7 +43,9 @@ Com a evolução das inteligências artificiais como chat-GPT e LLaMA AI, vemos 
 
 *Entregáveis adicionais*: Inteligência artificial funcional e treinada; Descrição dos dados usados/necessários para um treinamento eficaz de IA. 
 
-# Objetivo
+# Visão geral do projeto
+
+## Objetivo
 
 Como empresa, seu objetivo é expandir seus negócios. 
 Como humano, você quer garantir que o ecossistema permaneça saudável para as próximas gerações.
@@ -59,7 +63,7 @@ Por meio de tecnologias avançadas e uma interface intuitiva, nossa plataforma p
 
 Dessa forma, a plataforma é inovadora e contribui para a construção de um futuro mais sustentável e responsável. A "Diana" é uma plataforma de marketplace que cria oportunidades de investimento sustentáveis para seus usuários, unindo a tecnologia blockchain, as stablecoins e o mercado de crédito de carbono em um só lugar.
 
-# Proposta de Valor 
+## Proposta de Valor 
 
 - Acesso a um mercado global de ativos sustentáveis: Com a plataforma de negociação de créditos de carbono, as empresas Mynt, Geap e Titanium Asset podem acessar um mercado global de ativos sustentáveis, tornando mais fácil a procura de investimentos em projetos/empresas que ajudem a reduzir sua pegada de carbono e atingir seus objetivos de sustentabilidade.
 
@@ -71,28 +75,29 @@ Dessa forma, a plataforma é inovadora e contribui para a construção de um fut
 
 - Suporte de inteligência artificial: A inclusão de um chatbot com a API do ChatGPT permite que as empresas tenham acesso a conselhos de investimento personalizados baseados em sua estratégia de negócios e objetivos de sustentabilidade, o que pode ajudá-las a tomar decisões mais informadas sobre seus investimentos.
 
-## Produtos e Serviços 
-
 # User stories
 
 # Tecnologias
-# Tecnologias utilizadas
+
+## Tecnologias utilizadas
 - React JS
 - Node 
 - MySQL
 - AWS
 - Vercel 
 
-# Como rodar a aplicação (se fizermos local)
+## Arquitetura da solução
 
-# Métricas de tecnologia:
+# Métricas
+
+## de tecnologia
 Nível de segurança e privacidade da solução desenvolvida.
 Capacidade, tempo e custo do processamento de transações.
 Escalabilidade da solução utilizada para suportar a demanda crescente.
 Desenvolvimento integrado com tecnologias criptográficas de ponta (abstração de contas, rollups, zk, etc.)
 Desenho da arquitetura/solução. Está bem estruturado? Existem lacunas no fluxo?
 
-# Métricas de negócios:
+## de negócios
 
 ROI (Return on Investment) do projeto.
 Custo-benefício da solução em comparação com outras alternativas disponíveis.
@@ -101,11 +106,3 @@ Plano de negócios.
 Nível de criatividade e inovação do projeto.
 
 # Implementações futuras
-
-# Como rodar a aplicação 
-
-# Trailer Diana
-
-
-
-
