@@ -13,7 +13,7 @@ const db = new sqlite3.Database("mydatabase.db", (err) => {
     console.log("Connected to the mydatabase database.");
   });
 
-app.post('/signup', (req, res) => {
+app.post('/signup/create', (req, res) => {
     let params = [];
     params.push(request.body.empresa);
     params.push(request.body.area);
@@ -31,7 +31,7 @@ app.post('/signup', (req, res) => {
     });
 });
 
-const port = 3000
+const port = 5000
 
 app.listen(port, () => {console.log(`http://localhost:${port}`)})
 

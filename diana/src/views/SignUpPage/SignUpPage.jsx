@@ -11,13 +11,15 @@ function SignUp() {
   const [descricao, setDescricao] = useState("");
   
   const handleSubmit = (event) => {
+    console.log('na funcao')
+    console.log({empresa: empresa, area: area, descricao: descricao})
     axios
-     .post("/signup/create", {empresa, area, descricao})
+     .post("https://localhost:5000/signup/create", {empresa: empresa, area: area, descricao: descricao})
      .then((response) => {
         console.log(response.data);
+        alert("ebaaa");
      })
      .catch((error) => {
-        console.log(error);
      });
   };
   return (
@@ -44,7 +46,7 @@ function SignUp() {
               },
             ]}
           >
-            <Input className="input" value={empresa} onChange={setEmpresa}/>
+            <Input className="input" value={empresa} onChange={(e) => setEmpresa(e.target.value)}/>
           </Form.Item>
 
           <Form.Item className="label"
@@ -57,7 +59,7 @@ function SignUp() {
               },
             ]}
           >
-            <Input className="input" value={area} onChange={setArea}/>
+            <Input className="input" value={area} onChange={(e) => setArea(e.target.value)}/>
           </Form.Item>
 
           <Form.Item className="label"
@@ -70,7 +72,7 @@ function SignUp() {
               },
             ]}
           >
-            <Input className="input" value={descricao} onChange={setDescricao}/>
+            <Input className="input" value={descricao} onChange={(e) => setDescricao(e.target.value)}/>
           </Form.Item>
 
           <Form.Item className="label"
@@ -109,7 +111,7 @@ function SignUp() {
           </Form.Item>
 
           <Form.Item>
-            <Button type="primary" htmlType="submit" onSubmit={handleSubmit}> 
+            <Button type="primary" htmlType="submit" onClick={handleSubmit}> 
               Cadastrar
             </Button>
           </Form.Item>

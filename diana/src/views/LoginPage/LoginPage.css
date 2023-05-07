@@ -1,11 +1,13 @@
+body {
+  background-image: radial-gradient(#300E4B, #A98BC2);
+}
 
 .login-page-container {
-  background-image: linear-gradient(to bottom right, #300E4B, #A98BC2);
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #f0f2f5;
+    /* background-color: #f0f2f5; */
   }
   
   .login-card {
