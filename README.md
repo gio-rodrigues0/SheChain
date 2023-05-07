@@ -60,5 +60,5 @@ node app.js
 
 # Trailer Diana
 
-A seguir temos o vídeo demo do projeto:
+A seguir temos o vídeo demo do projeto: https://drive.google.com/drive/folders/1goOziIDzrQS3mWYUIIpEbGOfvcGQv5yv?usp=share_link
 
