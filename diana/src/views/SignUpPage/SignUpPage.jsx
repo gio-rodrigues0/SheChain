@@ -1,7 +1,6 @@
 import React from "react";
 import { Form, Input, Button, Checkbox,Card } from "antd";
 import { useState } from "react";
-import axios from "axios";
 import 'antd/dist/reset.css';
 import "./SignUpPage.css";
 
@@ -10,18 +9,20 @@ function SignUp() {
   const [area, setArea] = useState("");
   const [descricao, setDescricao] = useState("");
   
-  const handleSubmit = (event) => {
-    console.log('na funcao')
-    console.log({empresa: empresa, area: area, descricao: descricao})
-    axios
-     .post("https://localhost:5000/signup/create", {empresa: empresa, area: area, descricao: descricao})
-     .then((response) => {
-        console.log(response.data);
-        alert("ebaaa");
-     })
-     .catch((error) => {
-     });
-  };
+
+  // const handleSubmit = (event) => {
+  //   console.log('na funcao')
+  //   console.log({empresa: empresa, area: area, descricao: descricao})
+  //   axios
+  //    .post("https://localhost:5000/signup/create", {empresa: empresa, area: area, descricao: descricao})
+  //    .then((response) => {
+  //       console.log(response.data);
+  //       alert("ebaaa");
+  //    })
+  //    .catch((error) => {
+  //    });
+  // };
+
   return (
     <div className="signup-page-container">
       <Card className="signup-card" bordered={false}>
@@ -109,14 +110,11 @@ function SignUp() {
           >
             <Input.Password className="input"/>
           </Form.Item>
-
           <Form.Item>
-            <Button type="primary" htmlType="submit" onClick={handleSubmit}> 
+            <Button type="primary" htmlType="submit"> 
               Cadastrar
             </Button>
           </Form.Item>
-
-          
         </Form>
       </Card>
     </div>

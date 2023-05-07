@@ -17,7 +17,7 @@ contract CarbonCreditTrading {
     }
 
     // Função de compra de créditos de carbono
-    function buyCarbonCredits(uint256 _amount) public payable {
+    function  (uint256 _amount) public payable {
         // Verifica se o valor enviado é igual ao valor necessário
         require(msg.value == _amount, "Valor incorreto");
 
