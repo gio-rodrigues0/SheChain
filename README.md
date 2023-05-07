@@ -62,3 +62,6 @@ node app.js
 
 A seguir temos o vídeo demo do projeto: https://drive.google.com/drive/folders/1goOziIDzrQS3mWYUIIpEbGOfvcGQv5yv?usp=share_link
 
+# Deploy
+
+https://dianacoin.vercel.app/
