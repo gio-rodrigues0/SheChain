@@ -1,36 +1,42 @@
 import React from "react";
 import { Form, Input, Button, Checkbox,Card } from "antd";
+import { useState } from "react";
+import axios from "axios";
 import 'antd/dist/reset.css';
 import "./SignUpPage.css";
 
-function SignUpPage() {
-  const onFinish = (values) => {
-    console.log("Received values of form: ", values);
+function SignUp() {
+  const [empresa, setEmpresa] = useState("");
+  const [area, setArea] = useState("");
+  const [descricao, setDescricao] = useState("");
+  
+  const handleSubmit = (event) => {
+    axios
+     .post("/signup/create", {empresa, area, descricao})
+     .then((response) => {
+        console.log(response.data);
+     })
+     .catch((error) => {
+        console.log(error);
+     });
   };
-
-  const onFinishFailed = (errorInfo) => {
-    console.log("Failed:", errorInfo);
-  };
-
   return (
     <div className="signup-page-container">
       <Card className="signup-card" bordered={false}>
-        <div classname="signup">
-        <h1>Sign Up</h1>
+        <div className="signup">
+          <h1>Cadastro</h1>
         </div>
 
         <Form
           name="basic"
-          onFinish={onFinish}
-          onFinishFailed={onFinishFailed}
           initialValues={{
             remember: true,
           }}
           layout="vertical"
         >
-          <Form.Item
+          <Form.Item className="label"
             label="Empresa Física ou Empresa"
-            name="fullname"
+            name="empresa"
             rules={[
               {
                 required: true,
@@ -38,23 +44,53 @@ function SignUpPage() {
               },
             ]}
           >
-            <Input />
+            <Input className="input" value={empresa} onChange={setEmpresa}/>
           </Form.Item>
 
-          <Form.Item
-            label="Full Name"
-            name="fullname"
+          <Form.Item className="label"
+            label="Área de atuação"
+            name="area"
             rules={[
               {
                 required: true,
-                message: "Please input your full name!",
+                message: "Please input your area!",
               },
             ]}
           >
-            <Input />
+            <Input className="input" value={area} onChange={setArea}/>
           </Form.Item>
 
-          <Form.Item
+          <Form.Item className="label"
+            label="Descrição"
+            name="descricao"
+            rules={[
+              {
+                required: true,
+                message: "Please input your description!",
+              },
+            ]}
+          >
+            <Input className="input" value={descricao} onChange={setDescricao}/>
+          </Form.Item>
+
+          <Form.Item className="label"
+            label="Email"
+            name="email"
+            rules={[
+              {
+                required: true,
+                message: "Please input your email!",
+              },
+              {
+                type: "email",
+                message: "Please enter a valid email address!",
+              },
+            ]}
+          >
+            <Input className="input"/>
+          </Form.Item>
+
+          <Form.Item className="label"
             label="Password"
             name="password"
             rules={[
@@ -69,33 +105,12 @@ function SignUpPage() {
             ]}
             
           >
-            <Input.Password />
-          </Form.Item>
-
-          <Form.Item
-            label="Email"
-            name="email"
-            rules={[
-              {
-                required: true,
-                message: "Please input your email!",
-              },
-              {
-                type: "email",
-                message: "Please enter a valid email address!",
-              },
-            ]}
-          >
-            <Input />
-          </Form.Item>
-
-          <Form.Item name="remember" valuePropName="checked">
-            <Checkbox>Remember me</Checkbox>
+            <Input.Password className="input"/>
           </Form.Item>
 
           <Form.Item>
-            <Button type="primary" htmlType="submit">
-              Sign Up
+            <Button type="primary" htmlType="submit" onSubmit={handleSubmit}> 
+              Cadastrar
             </Button>
           </Form.Item>
 
@@ -106,4 +121,4 @@ function SignUpPage() {
   );
 }
 
-export default SignUpPage;
+export default SignUp;

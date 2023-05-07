@@ -3,10 +3,10 @@
 }
 
 .hello{
-  color:aqua
+  color:rgb(0, 103, 103)
 }
 .carbono{
-  color:aqua
+  color:rgb(0, 103, 103)
 }
 .login-page-container {
   background-image: linear-gradient(to bottom right, #300E4B, #A98BC2); 
@@ -25,9 +25,11 @@
   }
 
   .principal-card{
-    margin-top: 10%;
-    width: 90%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    width: 80%;
     padding: 24px;
+    justify-content: center;
     font-family: "Poppins", sans-serif;
   }
 
