@@ -6,6 +6,8 @@ import LoginPage from "./views/LoginPage/LoginPage";
 import LandingPage from "./views/LandingPage/LandingPage";
 import SignUpPage from "./views/SignUpPage/SignUpPage";
 import HomePage from "./views/HomePage/HomePage";
+import MetamaskPage from "./views/MetamaskPage/MetamaskPage";
+
 import reportWebVitals from "./reportWebVitals";
 
 ReactDOM.render(
@@ -15,6 +17,7 @@ ReactDOM.render(
       <Route path="/login" element={<LoginPage />}/>
       <Route path="/signup" element={<SignUpPage />}/>
       <Route path="/home" element={<HomePage />}/>
+      <Route path="/metamask" element={<MetamaskPage />}/>
     </Routes>
   </Router>,
   document.getElementById("root")
