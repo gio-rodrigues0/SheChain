@@ -76,21 +76,6 @@ Por fim, a plataforma contribui para a construção de um futuro mais sustentáv
 
 ## Arquitetura da solução
 
-# Métricas
+![img](https://github.com/gio-rodrigues0/SheChain/blob/main/Apresenta%C3%A7%C3%A3o%20Hackaton.png)
 
-## de tecnologia
-Nível de segurança e privacidade da solução desenvolvida.
-Capacidade, tempo e custo do processamento de transações.
-Escalabilidade da solução utilizada para suportar a demanda crescente.
-Desenvolvimento integrado com tecnologias criptográficas de ponta (abstração de contas, rollups, zk, etc.)
-Desenho da arquitetura/solução. Está bem estruturado? Existem lacunas no fluxo?
-
-## de negócios
-
-ROI (Return on Investment) do projeto.
-Custo-benefício da solução em comparação com outras alternativas disponíveis.
-Potencial aceitação de mercado da solução desenvolvida.
-Plano de negócios.
-Nível de criatividade e inovação do projeto.
-
-# Implementações futuras
+# Implementações fu
