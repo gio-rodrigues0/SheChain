@@ -16,7 +16,7 @@ function SignUpPage() {
     <div className="signup-page-container">
       <Card className="signup-card" bordered={false}>
         <div classname="signup">
-        <h1>Sign Up</h1>
+          <h1>Cadastro</h1>
         </div>
 
         <Form
@@ -28,7 +28,7 @@ function SignUpPage() {
           }}
           layout="vertical"
         >
-          <Form.Item
+          <Form.Item className="label"
             label="Empresa Física ou Empresa"
             name="fullname"
             rules={[
@@ -38,23 +38,40 @@ function SignUpPage() {
               },
             ]}
           >
-            <Input />
+            <Input className="input"/>
           </Form.Item>
 
-          <Form.Item
-            label="Full Name"
+          <Form.Item className="label"
+            label="Área de atuação"
             name="fullname"
             rules={[
               {
                 required: true,
-                message: "Please input your full name!",
+                message: "Please input your area!",
               },
             ]}
           >
-            <Input />
+            <Input className="input"/>
           </Form.Item>
 
-          <Form.Item
+          <Form.Item className="label"
+            label="Email"
+            name="email"
+            rules={[
+              {
+                required: true,
+                message: "Please input your email!",
+              },
+              {
+                type: "email",
+                message: "Please enter a valid email address!",
+              },
+            ]}
+          >
+            <Input className="input"/>
+          </Form.Item>
+
+          <Form.Item className="label"
             label="Password"
             name="password"
             rules={[
@@ -69,33 +86,16 @@ function SignUpPage() {
             ]}
             
           >
-            <Input.Password />
-          </Form.Item>
-
-          <Form.Item
-            label="Email"
-            name="email"
-            rules={[
-              {
-                required: true,
-                message: "Please input your email!",
-              },
-              {
-                type: "email",
-                message: "Please enter a valid email address!",
-              },
-            ]}
-          >
-            <Input />
+            <Input.Password className="input"/>
           </Form.Item>
 
           <Form.Item name="remember" valuePropName="checked">
-            <Checkbox>Remember me</Checkbox>
+            <Checkbox>Lembre-me</Checkbox>
           </Form.Item>
 
           <Form.Item>
-            <Button type="primary" htmlType="submit">
-              Sign Up
+            <Button type="primary" htmlType="submit" className="cadastrar">
+              Cadastrar
             </Button>
           </Form.Item>
 

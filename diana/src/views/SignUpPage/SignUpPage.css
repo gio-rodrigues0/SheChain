@@ -1,19 +1,40 @@
+body {
+  background-image: radial-gradient(#300E4B, #A98BC2);
+}
+
 .signup{
   color:#d6baed
 }
 
 .signup-page-container {
-  background-image: linear-gradient(to bottom right, #300E4B, #A98BC2);
+  /* background-image: linear-gradient(#300E4B, #A98BC2); */
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #f0f2f5;
+    padding-top: 30px;
   }
   
 .signup-card {
     width: 50%;
     padding: 24px;
     font-family: "Poppins", sans-serif;
+    border-radius: 60px;
   }
+
+h1 {
+  font-weight: 700;
+  color: #63348A;
+  font-size: 50px;
+  text-align: center;
+}
   
+.label {
+  font-weight: 500;
+}
+
+.input {
+  box-shadow: 0 5px rgba(0,0,0, 0.25);
+}
+
+.cadastrar {background-color: #63348A;}
