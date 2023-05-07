@@ -30,6 +30,11 @@ Hackathon Inteli Blockchain
 
 # Instruções para rodar a aplicação 
 
+1- Frontend
+a) Fazer um npm install na pasta do frontend
+b) Fazer um npm start na pasta da 
+
+
 # Trailer Diana
 
 A seguir temos o vídeo demo do projeto:
