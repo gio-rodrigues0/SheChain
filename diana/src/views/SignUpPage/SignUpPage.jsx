@@ -1,7 +1,6 @@
 import React from "react";
 import { Form, Input, Button, Checkbox,Card } from "antd";
 import { useState } from "react";
-import axios from "axios";
 import 'antd/dist/reset.css';
 import "./SignUpPage.css";
 
@@ -10,16 +9,7 @@ function SignUp() {
   const [area, setArea] = useState("");
   const [descricao, setDescricao] = useState("");
   
-  const handleSubmit = (event) => {
-    axios
-     .post("/signup/create", {empresa, area, descricao})
-     .then((response) => {
-        console.log(response.data);
-     })
-     .catch((error) => {
-        console.log(error);
-     });
-  };
+  
   return (
     <div className="signup-page-container">
       <Card className="signup-card" bordered={false}>
@@ -109,7 +99,7 @@ function SignUp() {
           </Form.Item>
 
           <Form.Item>
-            <Button type="primary" htmlType="submit" onSubmit={handleSubmit}> 
+            <Button type="primary" htmlType="submit"> 
               Cadastrar
             </Button>
           </Form.Item>
